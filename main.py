@@ -15,7 +15,6 @@ def load_params():
             DATA.update(yaml.load(yaml_file, Loader))
     except Exception:
         print('Can\'t open file with settings')
-        TOKEN_MONO = ''
 
 def get_statement():
 
